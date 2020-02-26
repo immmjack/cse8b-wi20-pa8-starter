@@ -16,12 +16,12 @@ There are a number of ways to get started on development. The following is the r
         - From the command line, use the command `cp -r ~/../public/pa8 ~/` (this will copy the entire starter files directory to your home directory)
         - Type `ls ~` to verify that you have copied the `pa8` directory over. 
     - From GitHub: 
-        - `git clone https://github.com/CaoAssignments/cse8b-wi20-pa8-generics-exceptions-starter.git`
+        - `git clone https://github.com/CaoAssignments/cse8b-wi20-pa8-starter.git`
         - Alternatively, you can download the repo as a zipped folder.
 3. If you downloaded the repo as a zipped folder, navigate to it through your terminal or text editor (Atom, Eclipse, etc.). If you git cloned the repo, you can switch into that directory immediately.
-    - `cd cse8b-wi20-pa8-generics-exceptions-starter`
+    - `cd cse8b-wi20-pa8-starter`
     - Optional: You may choose to rename this repo. You can do this by using this command (before the `cd` command above):
-        - `mv cse8b-wi20-pa8-generics-exceptions-starter pa8`
+        - `mv cse8b-wi20-pa8-starter pa8`
 4. You can now start working on it through vim using the following command or open the directory in your preferred editor.
     - `vim Pokemon.java` or `gvim Pokemon.java`
 5. To compile your code, use the `javac` command.
