@@ -37,11 +37,13 @@ There are a number of ways to get started on development. The following is the r
 
 A generic type is a generic class or interface that is parameterized over types. By convention, type parameter names are single, uppercase letters. The most commonly used type parameter names are:
 
-E - Element (used extensively by the Java Collections Framework)
-K - Key
-N - Number
-T - Type
-V - Value
+<ul>
+<li> E - Element (used extensively by the Java Collections Framework) </li>
+<li> K - Key </li>
+<li> N - Number </li>
+<li> T - Type </li>
+<li> V - Value </li>
+</ul>
 
 Generics in Java allow us to write programs that don't confine to a specific data type. By using the generic type \<E\>, we can use E as if it is a type such as String or Integer. Note the following when using the generic types
 <ol>
@@ -588,7 +590,7 @@ For this method, you simply need to add a catch statement. Catch the exception t
 <br />
 
 ```java
-private static void handlePC(Scanner scanner)
+private static void handlePC()
 ```
 You are responsible for filling in the TODOs in this method. We have described the overall behavior of this method below for you.
 
