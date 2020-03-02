@@ -474,7 +474,7 @@ Hint: To pass in the String message to the exception, use `String.format()` and 
 <br />
 
 ### PokemonStorageSystem.java
-A `PokemonStorageSystem` consists of a number of `Box`, and each `Box` contains a certain number of `Position`. We also have one `partyMember` Pokemon, which is our currently "active" Pokemon and is used when we battle.
+Similar to `Box` and `Position`, `PokemonStorageSystem` is a generic class. Make sure it can take in another type by making it have a parameterized type. A `PokemonStorageSystem` consists of a number of `Box`, and each `Box` contains a certain number of `Position`. We also have one `partyMember` Pokemon, which is our currently "active" Pokemon and is used when we battle.
 
 #### Constants
 ```java
