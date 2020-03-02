@@ -374,7 +374,7 @@ Return the Pokemon that is at this `Position`.
 ```java
 public void setPokemon(T newPokemon)
 ```
-Set `newPokemon` as the Pokemon at this `Position`.
+Set the `pokemon` instance variable to `newPokemon` so that `newPokemon` is now the Pokemon at this `Position`.
 <br />
 
 ```java
