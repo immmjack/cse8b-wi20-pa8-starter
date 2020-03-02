@@ -619,7 +619,7 @@ The format of each line is the unique number for each Pokemon (dexNumber), Pokem
 
 Initialize a new ArrayList and populate the ArrayList with new Pokemon objects using the information from each line of the file. Using the example above, you would create three Pokemon objects, add them to an ArrayList, and return that ArrayList.
 
-Remember to catch any exception that may occur. Return null if an exception occurs.
+Remember to catch any exception that may occur. Return null if an exception occurs. If a FileNotFoundException occurs, call on System.out.printf passing in a formatted string using the FILE_NOT_FOUND format string and the filename that was used.
 <br />
 
 ```java
