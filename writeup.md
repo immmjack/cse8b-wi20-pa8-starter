@@ -191,7 +191,7 @@ private String errorLocation;
 ```
 
 ```java
-public OutofBoundsException(String loc)
+public OutOfBoundsException(String loc)
 ```
 The constructor of `OutOfBoundsException` takes a single String as a parameter, which is the location that is out of bounds. In the constructor, call the `super()` constructor and pass in a formatted String using `EXCEPT_MSG` and `loc`. Then, set your instance variable `errorLocation` to the String that was passed in to this constructor.
 <br />
