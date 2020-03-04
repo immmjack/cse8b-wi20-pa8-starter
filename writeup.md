@@ -102,7 +102,7 @@ Each Pokemon storage system contains a max number of boxes, and each box has a m
 
 Here is a diagram showing the how the Pokemon are stored in boxes in the storage system.
 
-![](https://i.imgur.com/UrNt1Xy.png)
+![](https://i.imgur.com/26PqGWH.png)
 
 Overall workflow of the PA:
 
